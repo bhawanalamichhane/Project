@@ -1,0 +1,10 @@
+uuid: 36b4fe70-ba20-4d74-be6c-0f8f446df445
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.testimonial_block
+label: 'Testimonial Block'
+targetEntityType: node
+cache: true

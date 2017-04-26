@@ -1,0 +1,21 @@
+uuid: 385a071c-445e-4846-8556-e29b1d369bcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.jewellery
+  module:
+    - user
+id: node.jewellery.teaser
+targetEntityType: node
+bundle: jewellery
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+hidden: {  }

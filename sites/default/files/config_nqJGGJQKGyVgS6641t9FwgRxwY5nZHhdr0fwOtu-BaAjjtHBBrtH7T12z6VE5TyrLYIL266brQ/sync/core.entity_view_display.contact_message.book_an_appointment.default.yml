@@ -1,0 +1,47 @@
+uuid: 7fe8ef4d-1d87-4d04-9e24-be3dfde1ce99
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_an_appointment
+    - field.field.contact_message.book_an_appointment.field_email
+    - field.field.contact_message.book_an_appointment.field_name
+    - field.field.contact_message.book_an_appointment.field_phone
+  module:
+    - telephone
+id: contact_message.book_an_appointment.default
+targetEntityType: contact_message
+bundle: book_an_appointment
+mode: default
+content:
+  field_email:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone:
+    weight: 3
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  message:
+    type: basic_string
+    weight: 0
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

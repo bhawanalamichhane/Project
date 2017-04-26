@@ -1,0 +1,65 @@
+uuid: d7b56831-546c-4a2d-9e22-c560b29e3e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_item
+    - node.type.brand
+    - paragraphs.paragraphs_type.accordian
+    - paragraphs.paragraphs_type.body_copy
+    - paragraphs.paragraphs_type.call_to_action
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.image_and_text
+    - paragraphs.paragraphs_type.pullout_quote
+    - paragraphs.paragraphs_type.video
+    - paragraphs.paragraphs_type.web_form
+  module:
+    - entity_reference_revisions
+id: node.brand.field_content_item
+field_name: field_content_item
+entity_type: node
+bundle: brand
+label: 'Content Item'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      accordian: accordian
+      body_copy: body_copy
+      call_to_action: call_to_action
+      image: image
+      image_and_text: image_and_text
+      pullout_quote: pullout_quote
+      video: video
+      web_form: web_form
+    target_bundles_drag_drop:
+      accordian:
+        enabled: true
+        weight: 9
+      body_copy:
+        enabled: true
+        weight: 10
+      call_to_action:
+        enabled: true
+        weight: 11
+      image:
+        enabled: true
+        weight: 12
+      image_and_text:
+        enabled: true
+        weight: 13
+      pullout_quote:
+        enabled: true
+        weight: 14
+      video:
+        enabled: true
+        weight: 15
+      web_form:
+        enabled: true
+        weight: 16
+field_type: entity_reference_revisions

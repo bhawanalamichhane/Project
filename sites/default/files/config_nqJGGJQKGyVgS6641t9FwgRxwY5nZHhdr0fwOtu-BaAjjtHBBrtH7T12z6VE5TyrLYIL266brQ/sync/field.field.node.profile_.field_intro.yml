@@ -1,0 +1,19 @@
+uuid: 0237aade-df23-4823-b5ae-bdfee8ea9cdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro
+    - node.type.profile_
+id: node.profile_.field_intro
+field_name: field_intro
+entity_type: node
+bundle: profile_
+label: Intro
+description: 'Introductory profile of the team member '
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

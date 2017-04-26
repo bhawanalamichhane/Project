@@ -1,0 +1,20 @@
+uuid: 802d2643-6d41-43c4-ab0f-262f38d5187e
+langcode: en
+status: true
+dependencies:
+  module:
+    - hello_world
+  theme:
+    - zircon
+id: zircon_helloblock
+theme: zircon
+region: sidebar_second
+weight: 0
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: 'Hello block'
+  provider: hello_world
+  label_display: visible
+visibility: {  }

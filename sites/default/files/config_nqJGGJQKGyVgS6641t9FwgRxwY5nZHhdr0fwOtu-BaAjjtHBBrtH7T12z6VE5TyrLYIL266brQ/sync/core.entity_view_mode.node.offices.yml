@@ -1,0 +1,10 @@
+uuid: e93eebd9-5ffb-4fe5-953c-1174b4154c3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.offices
+label: Offices
+targetEntityType: node
+cache: true

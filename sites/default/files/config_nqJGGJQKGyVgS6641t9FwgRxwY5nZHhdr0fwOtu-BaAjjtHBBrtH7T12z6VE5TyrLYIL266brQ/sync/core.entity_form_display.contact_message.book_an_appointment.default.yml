@@ -1,0 +1,68 @@
+uuid: 640f56a6-0354-4610-bc80-3f30eea39d1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_an_appointment
+    - field.field.contact_message.book_an_appointment.field_email
+    - field.field.contact_message.book_an_appointment.field_name
+    - field.field.contact_message.book_an_appointment.field_phone
+  module:
+    - telephone
+id: contact_message.book_an_appointment.default
+targetEntityType: contact_message
+bundle: book_an_appointment
+mode: default
+content:
+  copy:
+    weight: 50
+    region: content
+  field_email:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_name:
+    weight: 52
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_phone:
+    weight: 53
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  mail:
+    weight: -40
+    region: content
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+  preview:
+    weight: 40
+    region: content
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

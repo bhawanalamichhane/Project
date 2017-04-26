@@ -1,0 +1,18 @@
+uuid: 2b09191b-cfab-446f-9324-6739941d80dc
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: 5FuMYTm-ZgfKmXAqg1wbr987SHFddu4f8oSkJErUMmo
+name: 'French Southern Territories'
+alpha_2: TF
+alpha_3: ATF
+numeric: 260
+zones: {  }
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city  !postal_code'
+  - '!country_name_if'

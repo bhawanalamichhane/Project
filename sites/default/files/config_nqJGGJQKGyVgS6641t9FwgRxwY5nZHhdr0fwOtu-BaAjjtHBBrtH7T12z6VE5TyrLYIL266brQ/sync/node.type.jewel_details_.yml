@@ -1,0 +1,18 @@
+uuid: c80ed54a-582e-4210-8dfa-41a83289889c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Jewel Details'
+type: jewel_details_
+description: 'Details for all the products'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

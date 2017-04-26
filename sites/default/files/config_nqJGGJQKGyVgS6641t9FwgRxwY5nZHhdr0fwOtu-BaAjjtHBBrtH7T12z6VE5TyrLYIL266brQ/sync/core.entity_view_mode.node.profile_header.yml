@@ -1,0 +1,10 @@
+uuid: 612f6d4a-834b-4a8e-aee7-6b254da12bbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.profile_header
+label: 'Profile Header'
+targetEntityType: node
+cache: true

@@ -1,0 +1,24 @@
+uuid: af3a7c77-220c-4916-8fb3-5682f7c53bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.testimonial
+  module:
+    - weight
+id: node.testimonial.field_weight
+field_name: field_weight
+entity_type: node
+bundle: testimonial
+label: Weight
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

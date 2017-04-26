@@ -1,0 +1,18 @@
+uuid: a21837f6-4467-4fc5-96d2-0d787f7a5b3f
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: 5a-2bF8lAJzshp4qMDRB7oCeD4vE4kPNHN3TIPdy1WM
+name: 'Norfolk Island'
+alpha_2: NF
+alpha_3: NFK
+numeric: 574
+zones: {  }
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city  !postal_code'
+  - '!country_name_if'

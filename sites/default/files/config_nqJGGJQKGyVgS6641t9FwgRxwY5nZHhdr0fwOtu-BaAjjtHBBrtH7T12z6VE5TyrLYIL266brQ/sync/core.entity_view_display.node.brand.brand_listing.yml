@@ -1,0 +1,63 @@
+uuid: 9c55bc5c-154e-46cc-b3f4-2b8deac39c46
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.brand_listing
+    - field.field.node.brand.field_banner
+    - field.field.node.brand.field_content_item
+    - field.field.node.brand.field_intro
+    - field.field.node.brand.field_teaser_image
+    - field.field.node.brand.field_weight
+    - node.type.brand
+  module:
+    - entity_reference_revisions
+    - image
+    - user
+id: node.brand.brand_listing
+targetEntityType: node
+bundle: brand
+mode: brand_listing
+content:
+  field_banner:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_content_item:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_intro:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_teaser_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_weight: true
+  sharethis: true

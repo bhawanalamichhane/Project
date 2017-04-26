@@ -1,0 +1,21 @@
+uuid: f1497e0f-a93a-45c9-a4a4-4e1a8af02a33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote
+    - paragraphs.paragraphs_type.pullout_quote
+  module:
+    - text
+id: paragraph.pullout_quote.field_quote
+field_name: field_quote
+entity_type: paragraph
+bundle: pullout_quote
+label: Quote
+description: 'Quote to indicate person''s real word'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

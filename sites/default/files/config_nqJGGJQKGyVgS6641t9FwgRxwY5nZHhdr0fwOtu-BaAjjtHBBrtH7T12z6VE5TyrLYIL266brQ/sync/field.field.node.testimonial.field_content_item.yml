@@ -1,0 +1,53 @@
+uuid: cad89fd1-1090-4713-aa6d-c49273b1b1df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_item
+    - node.type.testimonial
+    - paragraphs.paragraphs_type.body_copy
+    - paragraphs.paragraphs_type.pullout_quote
+  module:
+    - entity_reference_revisions
+id: node.testimonial.field_content_item
+field_name: field_content_item
+entity_type: node
+bundle: testimonial
+label: 'Content Item'
+description: 'Content item that appears in testimonial page'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      body_copy: body_copy
+      pullout_quote: pullout_quote
+    target_bundles_drag_drop:
+      accordian:
+        weight: 9
+        enabled: false
+      body_copy:
+        enabled: true
+        weight: 10
+      call_to_action:
+        weight: 11
+        enabled: false
+      image:
+        weight: 12
+        enabled: false
+      image_and_text:
+        weight: 13
+        enabled: false
+      pullout_quote:
+        enabled: true
+        weight: 14
+      video:
+        weight: 15
+        enabled: false
+      web_form:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

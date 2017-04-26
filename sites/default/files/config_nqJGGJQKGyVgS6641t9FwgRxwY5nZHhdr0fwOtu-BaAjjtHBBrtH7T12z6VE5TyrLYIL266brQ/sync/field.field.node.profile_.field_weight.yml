@@ -1,0 +1,24 @@
+uuid: 47b29649-db45-4427-a123-9c6f4d4e9b29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.profile_
+  module:
+    - weight
+id: node.profile_.field_weight
+field_name: field_weight
+entity_type: node
+bundle: profile_
+label: Weight
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

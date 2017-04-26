@@ -1,0 +1,22 @@
+uuid: 7d411cf6-b0e5-4624-8b30-654b58e7cb42
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.jewel_details_
+id: node.jewel_details_.promote
+field_name: promote
+entity_type: node
+bundle: jewel_details_
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

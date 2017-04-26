@@ -1,0 +1,12 @@
+uuid: 13bd6c13-c627-4f2f-b838-d009021bac37
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'Contact Form'
+recipients:
+  - bhawanal77@gmail.com
+reply: ''
+weight: 0
+message: 'Contact form Message '
+redirect: ''

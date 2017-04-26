@@ -1,0 +1,19 @@
+uuid: c781ef1c-22a5-44e3-bc56-a8c81957cd78
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.storage.block_content.field_description_
+id: block_content.ad.field_description_
+field_name: field_description_
+entity_type: block_content
+bundle: ad
+label: 'Description '
+description: 'Description for the jewellery'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

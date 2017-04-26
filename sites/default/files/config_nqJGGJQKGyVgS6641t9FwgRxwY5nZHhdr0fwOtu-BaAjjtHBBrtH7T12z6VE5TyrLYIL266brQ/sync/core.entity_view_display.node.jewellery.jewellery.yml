@@ -1,0 +1,29 @@
+uuid: 7d763edc-30e1-4b3d-8b9f-3263e8f48461
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.jewellery
+    - field.field.node.jewellery.field_image
+    - image.style.slideshow_
+    - node.type.jewellery
+  module:
+    - image
+    - user
+id: node.jewellery.jewellery
+targetEntityType: node
+bundle: jewellery
+mode: jewellery
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: slideshow_
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true
+  sharethis: true

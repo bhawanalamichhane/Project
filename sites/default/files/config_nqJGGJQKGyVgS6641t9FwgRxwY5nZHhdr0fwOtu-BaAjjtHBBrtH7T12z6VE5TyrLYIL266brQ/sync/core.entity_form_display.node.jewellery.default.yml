@@ -1,0 +1,68 @@
+uuid: b86cdefc-7584-45de-a875-56005736b102
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jewellery.field_image
+    - image.style.slideshow_
+    - node.type.jewellery
+  module:
+    - image
+    - path
+id: node.jewellery.default
+targetEntityType: node
+bundle: jewellery
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 6
+    settings:
+      preview_image_style: slideshow_
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,7 @@
+uuid: 87a6e979-2880-4a7f-b6d8-e430a90ca4c0
+langcode: en
+status: true
+dependencies: {  }
+id: body_copy
+label: 'Body Copy'
+behavior_plugins: {  }

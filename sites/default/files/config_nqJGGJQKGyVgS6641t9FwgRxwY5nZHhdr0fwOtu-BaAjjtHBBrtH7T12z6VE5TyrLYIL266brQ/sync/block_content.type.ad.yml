@@ -1,0 +1,8 @@
+uuid: 89edf3a6-3b3b-4d72-b1c4-444b500b1df9
+langcode: en
+status: true
+dependencies: {  }
+id: ad
+label: Ad
+revision: 0
+description: 'This block will be used for advertisement of jewellery'

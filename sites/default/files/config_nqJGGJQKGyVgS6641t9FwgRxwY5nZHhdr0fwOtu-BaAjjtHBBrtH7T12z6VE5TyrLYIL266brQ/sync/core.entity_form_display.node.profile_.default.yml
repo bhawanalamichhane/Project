@@ -1,0 +1,144 @@
+uuid: fa43649b-ce95-4358-b223-c71418559112
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.profile_.field_body_copy
+    - field.field.node.profile_.field_email
+    - field.field.node.profile_.field_intro
+    - field.field.node.profile_.field_job_title
+    - field.field.node.profile_.field_linkedin
+    - field.field.node.profile_.field_metatags
+    - field.field.node.profile_.field_phone
+    - field.field.node.profile_.field_profile_image
+    - field.field.node.profile_.field_weight
+    - image.style.thumbnail
+    - node.type.profile_
+  module:
+    - image
+    - link
+    - metatag
+    - paragraphs
+    - path
+    - telephone
+    - weight
+id: node.profile_.default
+targetEntityType: node
+bundle: profile_
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_body_copy:
+    type: entity_reference_paragraphs
+    weight: 31
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_intro:
+    weight: 33
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_job_title:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_linkedin:
+    weight: 35
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_metatags:
+    weight: 36
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_phone:
+    weight: 37
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_profile_image:
+    weight: 38
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_weight:
+    weight: 39
+    settings: {  }
+    third_party_settings: {  }
+    type: weight_selector
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

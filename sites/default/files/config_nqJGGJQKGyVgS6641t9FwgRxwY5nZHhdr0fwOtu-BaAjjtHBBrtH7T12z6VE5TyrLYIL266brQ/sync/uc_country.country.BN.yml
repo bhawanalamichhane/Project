@@ -1,0 +1,23 @@
+uuid: b745fe3b-a027-4185-9959-8c7eba5db752
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: U-sR7MV1mKkcQ0O3JXFJhTrp3PsfLRJLO2oInPjtfqU
+name: 'Brunei Darussalam'
+alpha_2: BN
+alpha_3: BRN
+numeric: 96
+zones:
+  BN-BE: Belait
+  BN-BM: Brunei-Muara
+  BN-TE: Temburong
+  BN-TU: Tutong
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city !postal_code'
+  - '!zone_name'
+  - '!country_name_if'

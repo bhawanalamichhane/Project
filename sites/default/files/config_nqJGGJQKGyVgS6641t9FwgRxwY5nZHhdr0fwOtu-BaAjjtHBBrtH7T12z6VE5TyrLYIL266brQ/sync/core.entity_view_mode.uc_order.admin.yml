@@ -1,0 +1,12 @@
+uuid: efb04556-09ff-482a-99a2-27a46d7c3036
+langcode: en
+status: false
+dependencies:
+  module:
+    - uc_order
+_core:
+  default_config_hash: B3_SNGJfYKw-I-o324yALtH1SHJ8q46-AvzkXqy19mI
+id: uc_order.admin
+label: 'Admin view'
+targetEntityType: uc_order
+cache: false

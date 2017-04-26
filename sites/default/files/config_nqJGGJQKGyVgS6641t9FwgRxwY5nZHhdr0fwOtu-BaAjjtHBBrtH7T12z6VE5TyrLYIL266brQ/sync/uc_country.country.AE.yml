@@ -1,0 +1,24 @@
+uuid: 1a2ca22f-d00f-4ddd-9045-d5f4ed7932ce
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: n28KmkDmEkF3-2phtZUGQA0aeYkKjshKOi4R8JLJjnE
+name: 'United Arab Emirates'
+alpha_2: AE
+alpha_3: ARE
+numeric: 784
+zones:
+  DXB: Dubai
+  SHJ: Sharjah
+  ABU: 'Abu dhabi'
+  UAQ: 'UM Al Quwain'
+  FUJ: Fujairah
+  Ala: 'Al Ain'
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city, !zone_code'
+  - '!country_name_if'

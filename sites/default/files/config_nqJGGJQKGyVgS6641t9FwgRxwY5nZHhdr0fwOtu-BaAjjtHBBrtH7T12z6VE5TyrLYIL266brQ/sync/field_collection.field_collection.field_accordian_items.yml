@@ -1,0 +1,6 @@
+uuid: null
+langcode: en
+status: true
+dependencies: {  }
+id: field_accordian_items
+label: field_accordian_items

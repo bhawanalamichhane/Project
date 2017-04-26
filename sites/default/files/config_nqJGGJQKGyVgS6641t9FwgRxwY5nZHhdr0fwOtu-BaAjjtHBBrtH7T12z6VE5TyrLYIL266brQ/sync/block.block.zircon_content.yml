@@ -1,0 +1,22 @@
+uuid: 2a020de0-a935-457f-9e89-1492874ff6c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: zircon_content
+theme: zircon
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

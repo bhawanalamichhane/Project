@@ -1,0 +1,22 @@
+uuid: 60f73ab8-1bf1-41bc-8d73-eaa1a39fc0d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.jewel_details_
+  module:
+    - text
+id: node.jewel_details_.body
+field_name: body
+entity_type: node
+bundle: jewel_details_
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

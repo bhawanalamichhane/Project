@@ -1,0 +1,40 @@
+uuid: d9243027-c875-42ca-8536-d9f5d8cccac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.uc_product_image
+    - node.type.product_kit
+  module:
+    - image
+_core:
+  default_config_hash: JRfA5NDa-zOKWZVOhwIcdlyJ0Nvilx0zCrV3oYfw-bI
+id: node.product_kit.uc_product_image
+field_name: uc_product_image
+entity_type: node
+bundle: product_kit
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: ''
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,29 @@
+uuid: 15f4908d-0a93-4027-b568-8f3ce1315eed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jewel_details_.body
+    - node.type.jewel_details_
+  module:
+    - text
+    - user
+id: node.jewel_details_.default
+targetEntityType: node
+bundle: jewel_details_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+hidden: {  }

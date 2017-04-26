@@ -1,0 +1,25 @@
+uuid: f965eaa2-d577-4aa4-bf60-129143b9d227
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ad:2f4ec900-63cf-41a7-91b7-9e827ebb73b7'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: weddingjewellery
+theme: zircon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:2f4ec900-63cf-41a7-91b7-9e827ebb73b7'
+settings:
+  id: 'block_content:2f4ec900-63cf-41a7-91b7-9e827ebb73b7'
+  label: 'Wedding Jewellery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

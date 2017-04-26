@@ -1,0 +1,17 @@
+uuid: c2bbf541-b08d-44ef-a88f-6ab8289a8c8b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aJ2fQtPbNXC7RJ459fakldE2YU7a_Tg7hhsyXGdi7D8
+name: uc_category
+label: 'Catalog (category)'
+effects:
+  0d4f4bd6-1551-49b0-8b54-8490df411b95:
+    uuid: 0d4f4bd6-1551-49b0-8b54-8490df411b95
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      upscale: false

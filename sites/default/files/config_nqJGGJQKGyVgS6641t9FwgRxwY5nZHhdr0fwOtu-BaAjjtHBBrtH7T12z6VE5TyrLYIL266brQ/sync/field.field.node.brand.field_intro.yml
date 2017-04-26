@@ -1,0 +1,19 @@
+uuid: db83da03-4d24-437c-87b0-0e017023dfe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro
+    - node.type.brand
+id: node.brand.field_intro
+field_name: field_intro
+entity_type: node
+bundle: brand
+label: Intro
+description: 'An introduction to brand that will appear in a lead style.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

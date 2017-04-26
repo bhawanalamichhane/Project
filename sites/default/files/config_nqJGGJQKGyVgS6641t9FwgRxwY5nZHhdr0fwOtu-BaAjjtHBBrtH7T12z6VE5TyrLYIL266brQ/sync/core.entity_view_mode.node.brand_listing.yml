@@ -1,0 +1,10 @@
+uuid: eb164b55-cf15-45c0-a15d-48e577f45473
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.brand_listing
+label: 'Brand Listing'
+targetEntityType: node
+cache: true

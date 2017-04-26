@@ -1,0 +1,51 @@
+uuid: cca4cb86-2e45-4024-a797-6f8486035f2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.field.block_content.ad.field_description_
+    - field.field.block_content.ad.field_image
+    - field.field.block_content.ad.field_visit_us
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+id: block_content.ad.default
+targetEntityType: block_content
+bundle: ad
+mode: default
+content:
+  field_description_:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_visit_us:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

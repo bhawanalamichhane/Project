@@ -1,0 +1,19 @@
+uuid: 4713020d-7d0e-42b7-94dc-98ace1e57778
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_an_appointment
+    - field.storage.contact_message.field_email
+id: contact_message.book_an_appointment.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: book_an_appointment
+label: Email
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,12 @@
+uuid: 2ef4fd50-88f4-4b34-96e5-87afa309d678
+langcode: en
+status: false
+dependencies:
+  module:
+    - uc_order
+_core:
+  default_config_hash: FWBGjrXOFIjL3VxnuQfq_8JqkCoUGuEr28ruBKwTSO0
+id: uc_order_product.cart
+label: 'Normal view'
+targetEntityType: uc_order_product
+cache: true

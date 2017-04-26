@@ -1,0 +1,19 @@
+uuid: 05514a3a-8a2b-484c-aa42-3239574d21a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro
+    - node.type.testimonial
+id: node.testimonial.field_intro
+field_name: field_intro
+entity_type: node
+bundle: testimonial
+label: Intro
+description: 'Introductory text for the testimonials'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

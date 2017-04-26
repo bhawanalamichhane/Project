@@ -1,0 +1,23 @@
+uuid: a0c03c75-4848-4b21-a2f1-04ba5eaaeb75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_and_text_items
+    - paragraphs.paragraphs_type.image_and_text
+  module:
+    - field_collection
+id: paragraph.image_and_text.field_image_and_text_items
+field_name: field_image_and_text_items
+entity_type: paragraph
+bundle: image_and_text
+label: 'Image and text items'
+description: 'The image and text that is displayed in paragraphs. For best results please upload an image with W*H dimensions.'
+required: true
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

@@ -1,0 +1,33 @@
+uuid: d336b903-1502-45dd-b07e-16dbd7ea1854
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordian.field_accordian_items
+    - field.field.paragraph.accordian.field_title
+    - paragraphs.paragraphs_type.accordian
+  module:
+    - field_collection
+id: paragraph.accordian.default
+targetEntityType: paragraph
+bundle: accordian
+mode: default
+content:
+  field_accordian_items:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

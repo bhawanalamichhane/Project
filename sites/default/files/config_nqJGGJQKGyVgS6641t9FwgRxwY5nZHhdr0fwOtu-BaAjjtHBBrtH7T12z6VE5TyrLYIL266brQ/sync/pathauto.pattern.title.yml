@@ -1,0 +1,27 @@
+uuid: c51436be-9db5-4489-9209-2147eeed9001
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: title
+label: Title
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  9927fdef-de40-4719-a621-a164731671e5:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+      brand: brand
+      office: office
+      page: page
+      profile_: profile_
+      testimonial: testimonial
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9927fdef-de40-4719-a621-a164731671e5
+selection_logic: and
+weight: -5
+relationships: {  }

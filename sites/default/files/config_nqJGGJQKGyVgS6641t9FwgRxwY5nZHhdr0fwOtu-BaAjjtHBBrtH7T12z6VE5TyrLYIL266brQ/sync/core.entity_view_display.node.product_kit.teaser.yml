@@ -1,0 +1,42 @@
+uuid: 35423010-0bb3-4f39-8dbb-d3f55a8e3bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product_kit.body
+    - field.field.node.product_kit.uc_product_image
+    - node.type.product_kit
+  module:
+    - uc_product
+    - user
+_core:
+  default_config_hash: H_zNTyQmXo4Aeoy-My0TENhE93EB4avQINmk3gDFQkc
+id: node.product_kit.teaser
+targetEntityType: node
+bundle: product_kit
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+  price:
+    type: uc_price
+    label: inline
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+  uc_product_image:
+    label: hidden
+    type: uc_product_image
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  default_qty: true

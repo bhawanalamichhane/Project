@@ -1,0 +1,25 @@
+uuid: 718b33c8-cf7e-41ad-a342-3a9b89275b61
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ad:1d697d95-023f-48ae-88dc-0601a1b8b8f0'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: classicjewellery
+theme: zircon
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:1d697d95-023f-48ae-88dc-0601a1b8b8f0'
+settings:
+  id: 'block_content:1d697d95-023f-48ae-88dc-0601a1b8b8f0'
+  label: 'Classic Jewellery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

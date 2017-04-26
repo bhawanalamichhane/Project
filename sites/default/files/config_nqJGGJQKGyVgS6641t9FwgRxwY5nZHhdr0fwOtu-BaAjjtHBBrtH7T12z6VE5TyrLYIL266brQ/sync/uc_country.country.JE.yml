@@ -1,0 +1,18 @@
+uuid: e6dad794-abe4-41e2-8e6a-e4c5b032f6bd
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: J-MrvSsxL7HIFVyZ3uqgGqAs7I_5sz_vOXD8yp91Q8U
+name: Jersey
+alpha_2: JE
+alpha_3: JEY
+numeric: 832
+zones: {  }
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city  !postal_code'
+  - '!country_name_if'

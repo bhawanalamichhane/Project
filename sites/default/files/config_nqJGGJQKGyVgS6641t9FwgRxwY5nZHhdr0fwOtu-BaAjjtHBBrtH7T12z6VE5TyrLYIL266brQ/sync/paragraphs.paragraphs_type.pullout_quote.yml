@@ -1,0 +1,7 @@
+uuid: b8a12a02-ecee-4008-9ddc-3631607c992c
+langcode: en
+status: true
+dependencies: {  }
+id: pullout_quote
+label: 'Pullout quote'
+behavior_plugins: {  }

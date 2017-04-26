@@ -1,0 +1,25 @@
+uuid: dea85a44-3c85-4107-a6dc-e4f05a620011
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.taxonomy_catalog
+    - node.type.product_kit
+    - taxonomy.vocabulary.catalog
+id: node.product_kit.taxonomy_catalog
+field_name: taxonomy_catalog
+entity_type: node
+bundle: product_kit
+label: Catalog
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    target_bundles:
+      catalog: catalog
+    auto_create: true
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

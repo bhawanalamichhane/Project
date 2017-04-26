@@ -1,0 +1,45 @@
+uuid: f3f0ec1d-a4a4-4b54-bf98-2fb561053b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.office.field_mailing_address
+    - field.field.node.office.field_office_address
+    - field.field.node.office.field_phone
+    - node.type.office
+  module:
+    - address
+    - user
+id: node.office.default
+targetEntityType: node
+bundle: office
+mode: default
+content:
+  field_mailing_address:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_office_address:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_phone:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: b9da2c98-db2f-4bc9-ad8f-9d1e9c981225
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.jewellery
+id: node.jewellery.promote
+field_name: promote
+entity_type: node
+bundle: jewellery
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

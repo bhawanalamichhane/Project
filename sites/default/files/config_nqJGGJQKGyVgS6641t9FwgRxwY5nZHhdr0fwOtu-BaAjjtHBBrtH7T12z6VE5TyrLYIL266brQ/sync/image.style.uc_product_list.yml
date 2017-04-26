@@ -1,0 +1,17 @@
+uuid: ce29a651-dbb8-40e7-8844-8f6af036af75
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eAOWiHdh3Klv571XpsN5y3B9CmK315dk7rXAgmFEn0Y
+name: uc_product_list
+label: 'Catalog (product)'
+effects:
+  2898b9cd-a6c8-44da-8b00-d0169a4609dc:
+    uuid: 2898b9cd-a6c8-44da-8b00-d0169a4609dc
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      upscale: false

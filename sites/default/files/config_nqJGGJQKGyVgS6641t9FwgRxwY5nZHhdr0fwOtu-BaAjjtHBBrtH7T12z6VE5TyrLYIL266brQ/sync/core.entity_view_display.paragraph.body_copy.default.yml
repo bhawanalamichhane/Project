@@ -1,0 +1,22 @@
+uuid: 44c9ff1c-c93f-485b-8b27-265d41fa8ed8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.body_copy.field_body_copy
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - text
+id: paragraph.body_copy.default
+targetEntityType: paragraph
+bundle: body_copy
+mode: default
+content:
+  field_body_copy:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

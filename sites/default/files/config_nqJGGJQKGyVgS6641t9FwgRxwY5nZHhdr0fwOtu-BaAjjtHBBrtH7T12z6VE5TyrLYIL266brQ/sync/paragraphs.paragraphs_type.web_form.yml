@@ -1,0 +1,7 @@
+uuid: b48d95b3-8151-4084-a120-5ec071543863
+langcode: en
+status: true
+dependencies: {  }
+id: web_form
+label: 'Web Form'
+behavior_plugins: {  }

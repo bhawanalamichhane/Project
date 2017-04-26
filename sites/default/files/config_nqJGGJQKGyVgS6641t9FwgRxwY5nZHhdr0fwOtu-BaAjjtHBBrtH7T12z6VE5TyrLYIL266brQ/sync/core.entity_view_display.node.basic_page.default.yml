@@ -1,0 +1,29 @@
+uuid: ed2f7428-403c-4f07-a4e7-f8f6a5edf756
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_page.body
+    - node.type.basic_page
+  module:
+    - text
+    - user
+id: node.basic_page.default
+targetEntityType: node
+bundle: basic_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+hidden: {  }

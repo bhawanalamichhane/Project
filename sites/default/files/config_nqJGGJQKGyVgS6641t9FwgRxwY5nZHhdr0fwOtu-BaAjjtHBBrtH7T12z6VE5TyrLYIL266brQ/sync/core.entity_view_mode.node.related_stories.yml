@@ -1,0 +1,10 @@
+uuid: 10e8b777-7ee9-43b2-a179-627eccc270b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.related_stories
+label: 'Related Stories'
+targetEntityType: node
+cache: true

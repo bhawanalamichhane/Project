@@ -1,0 +1,23 @@
+uuid: 2ee7dccf-288a-4415-820e-72520e6f1254
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_accordian_items
+    - paragraphs.paragraphs_type.accordian
+  module:
+    - field_collection
+id: paragraph.accordian.field_accordian_items
+field_name: field_accordian_items
+entity_type: paragraph
+bundle: accordian
+label: 'Accordian Items'
+description: 'User friendly accordian items '
+required: true
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

@@ -1,0 +1,31 @@
+uuid: 52f8312b-24e7-49a9-892f-1a7ec6d7a150
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: 6RbHLRS2JEu3ftNnpai-tKGb3WyNdzv_xAVjVukzcno
+name: Chile
+alpha_2: CL
+alpha_3: CHL
+numeric: 152
+zones:
+  TA: Tarapaca
+  AN: Antofagasta
+  AT: Atacama
+  CO: Coquimbo
+  VA: Valparaiso
+  OH: Ohiggins
+  MA: Maule
+  BI: Biobio
+  AR: Araucania
+  LA: Lagos
+  AI: Aisen
+  RM: Metropolitana
+  Ri: Rios
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city, !postal_code'
+  - '!zone_name, !country_name'

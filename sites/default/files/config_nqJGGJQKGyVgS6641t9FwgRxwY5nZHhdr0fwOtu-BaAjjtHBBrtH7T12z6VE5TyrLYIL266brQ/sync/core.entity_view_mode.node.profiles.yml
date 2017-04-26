@@ -1,0 +1,10 @@
+uuid: 98ced345-c148-472b-95e5-66c95cac4d56
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.profiles
+label: Profiles
+targetEntityType: node
+cache: true

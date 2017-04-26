@@ -1,0 +1,38 @@
+uuid: 4f019383-668a-4a8f-839b-6418abfb328c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - paragraphs.paragraphs_type.image
+  module:
+    - image
+id: paragraph.image.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: image
+label: Image
+description: 'The image that is displayed in paragraphs. For best results please upload an image with 992X496 dimensions.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: images/details
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

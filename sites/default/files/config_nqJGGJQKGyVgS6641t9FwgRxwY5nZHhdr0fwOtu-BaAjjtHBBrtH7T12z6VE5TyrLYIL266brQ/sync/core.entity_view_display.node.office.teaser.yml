@@ -1,0 +1,21 @@
+uuid: 2cbf2453-a4a3-43c4-b398-613ff120de5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.office
+  module:
+    - user
+id: node.office.teaser
+targetEntityType: node
+bundle: office
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+  sharethis:
+    weight: 10
+    region: content
+hidden: {  }

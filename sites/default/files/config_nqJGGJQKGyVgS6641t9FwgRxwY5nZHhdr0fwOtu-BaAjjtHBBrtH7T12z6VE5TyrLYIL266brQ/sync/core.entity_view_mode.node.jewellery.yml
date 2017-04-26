@@ -1,0 +1,10 @@
+uuid: a18d8101-66f5-4a19-9334-21d8293503f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.jewellery
+label: Jewellery
+targetEntityType: node
+cache: true

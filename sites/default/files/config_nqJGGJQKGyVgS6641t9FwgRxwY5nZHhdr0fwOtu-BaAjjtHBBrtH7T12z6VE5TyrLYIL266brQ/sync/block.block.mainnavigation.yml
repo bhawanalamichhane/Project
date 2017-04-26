@@ -1,0 +1,27 @@
+uuid: 9190a83d-efd1-417c-85ea-e5e9a351c2fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - menu_block
+  theme:
+    - zircon
+id: mainnavigation
+theme: zircon
+region: main_menu
+weight: 0
+provider: null
+plugin: 'menu_block:main'
+settings:
+  id: 'menu_block:main'
+  label: 'Main navigation'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 1
+  parent: 'main:'
+  suggestion: main
+visibility: {  }

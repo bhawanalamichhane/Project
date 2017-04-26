@@ -1,0 +1,51 @@
+uuid: 179831ae-d35a-40d7-a793-21dc779eba0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_copy
+    - node.type.profile_
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - entity_reference_revisions
+id: node.profile_.field_body_copy
+field_name: field_body_copy
+entity_type: node
+bundle: profile_
+label: 'Body Copy'
+description: 'The descriptive body text'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      body_copy: body_copy
+    target_bundles_drag_drop:
+      accordian:
+        weight: 9
+        enabled: false
+      body_copy:
+        enabled: true
+        weight: 10
+      call_to_action:
+        weight: 11
+        enabled: false
+      image:
+        weight: 12
+        enabled: false
+      image_and_text:
+        weight: 13
+        enabled: false
+      pullout_quote:
+        weight: 14
+        enabled: false
+      video:
+        weight: 15
+        enabled: false
+      web_form:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

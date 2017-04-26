@@ -1,0 +1,28 @@
+uuid: dfcdbcd1-a16f-4712-8e55-41f18d75cf0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jewellery.field_image
+    - image.style.slideshow_
+    - node.type.jewellery
+  module:
+    - image
+    - user
+id: node.jewellery.default
+targetEntityType: node
+bundle: jewellery
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: slideshow_
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true
+  sharethis: true

@@ -1,0 +1,16 @@
+uuid: 751304da-6f87-4fe1-8e18-36457233cb26
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - uc_product
+_core:
+  default_config_hash: hpiQ0uBSNlkcZLiUoXJZQ66pAm3G-66N-KX3RUr2b-A
+name: 'Product kit'
+type: product_kit
+description: 'Use <em>product kits</em> to list two or more products together, presenting a logical and convenient grouping of items to the customer.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

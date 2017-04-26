@@ -1,0 +1,21 @@
+uuid: 35f8a757-f4ca-4373-af88-a24f85a67a63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_copy
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - text
+id: paragraph.body_copy.field_body_copy
+field_name: field_body_copy
+entity_type: paragraph
+bundle: body_copy
+label: 'Body Copy'
+description: 'The descriptive body text'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,26 @@
+uuid: 728c0029-7a7b-4446-9000-0cf2c81101dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_an_appointment
+    - field.storage.paragraph.field_form
+    - paragraphs.paragraphs_type.web_form
+id: paragraph.web_form.field_form
+field_name: field_form
+entity_type: paragraph
+bundle: web_form
+label: Form
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 6589142a-9106-45eb-ac5e-daa5b92512dc
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

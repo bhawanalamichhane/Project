@@ -1,0 +1,22 @@
+name: MYTHEME
+type: theme
+description: Drupal 8 starter theme
+package: mytheme
+core: 8.x
+libraries:
+  - mytheme/global-styling
+libraries-override:
+  classy/base: false
+base theme: classy
+regions:
+  header_left: Header Left
+  header_right: Header Right
+  front_slider: Front Slider
+  frontpage_content: Frontpage Content
+  frontpage_testimonial: Frontpage Testimonial
+  breadcrumb: Breadcrumb
+  page_banner: Page Banner
+  content: Content
+  footer_left: Footer Left
+  footer_right: Footer Right
+  footer_bottom: Footer Bottom
